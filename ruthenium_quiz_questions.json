@@ -1,0 +1,91 @@
+
+
+{
+    "charades": [
+      {
+        "question": "Blanket",
+        "clues": [
+          "Something that brings you warmth.",
+          "Something that comes in different textures.",
+          "Something you might have had a special one for when you were a baby."
+        ]
+      },
+      {
+        "question": "Lion",
+        "clues": [
+          "A symbol for freedom.",
+          "A disney movie was created based on it.",
+          "Almost all live in Africa."
+        ]
+      },
+      {
+        "question": "Anime",
+        "clues": [
+          "A kind of media specific to Japan.",
+          "A lot of people recently got interested in it.",
+          "Can be made for adults and children."
+        ]
+      },
+      {
+        "question": "Mars",
+        "clues": [
+          "There are drones here sent from NASA.",
+          "Some speculate it could be Earth's replacement.",
+          "Water used to exist there."
+        ]
+      },
+      {
+        "question": "Facebook",
+        "clues": [
+          "User pool is mainly older adults",
+          "People stay connected through it.",
+          "It loves to violate your privacy."
+        ]
+      }
+    ],
+    "riddles": [
+      {
+        "question": "You can touch me, but I can’t touch you back. You can see me, but I only reflect you and can never reject you. What am I?",
+        "answer": "Mirror"
+      },
+      {
+        "question": "The more you take, the more you leave behind. What am I?",
+        "answer": "Footsteps"
+      },
+      {
+        "question": "What has keys but can't open locks?",
+        "answer": "Piano"
+      },
+      {
+        "question": "What is always in front of you but can't be seen?",
+        "answer": "Future"
+      },
+      {
+        "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+        "answer": "M"
+      }
+    ],
+    "trivia": [
+      {
+        "question": "What is the capital of Greece?",
+        "answer": "Athens"
+      },
+      {
+        "question": "Who painted the Mona Lisa?",
+        "answer": "Leonardo da Vinci"
+      },
+      {
+        "question": "How many ounces are in a cup?",
+        "answer": "8"
+      },
+      {
+        "question": "What is the largest country in the world?",
+        "answer": "Russia"
+      },
+      {
+        "question": "Who invented Apple?",
+        "answer": "Steve Jobs"
+      }
+    ]
+  }
+  
