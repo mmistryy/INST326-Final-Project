@@ -29,3 +29,4 @@ Here's a list of our functions and contributors:
 | reset_game             | Maya Mistry   |                              |
 | run                    | Evan Schneider| conditional expression       |
 | continue_to_next_question| Evan Schneider| conditional expression       |
+| bonus_round | Evan Schneider | conditional expression, f string |
