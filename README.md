@@ -15,3 +15,16 @@ python ruthenium_quizgame.py ruthenium_quiz_questions.json
 ```
 
 We hope you enjoy our game!
+
+Here's a list of our functions and contributors:
+| Method/Function        | Primary Author | Techniques Demonstrated      |
+|------------------------|----------------|------------------------------|
+| __init__               | Maya Mistry   | magic method but it is init |
+| load_quiz_data         | Maya Mistry   | key expression, with statement |
+| play_charades          | Maya Mistry   | f string, conditional expression |
+| play_riddles           | Maya Mistry   | conditional expression       |
+| play_trivia            | Maya Mistry   | conditional expression       |
+| play_again             | Maya Mistry   |                              |
+| reset_game             | Maya Mistry   |                              |
+| run                    | Evan Schneider| conditional expression       |
+| continue_to_next_question| Evan Schneider| conditional expression       |
