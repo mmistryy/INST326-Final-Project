@@ -22,11 +22,11 @@ Here's a list of our functions and contributors:
 |------------------------|----------------|------------------------------|
 | __init__               | Maya Mistry   | magic method but it is init |
 | load_quiz_data         | Maya Mistry   | key expression, with statement |
-| play_charades          | Maya Mistry   | f string, conditional expression |
-| play_riddles           | Maya Mistry   | conditional expression       |
-| play_trivia            | Maya Mistry   | conditional expression       |
-| play_again             | Maya Mistry   |                              |
-| reset_game             | Maya Mistry   |                              |
-| run                    | Evan Schneider| conditional expression       |
-| continue_to_next_question| Evan Schneider| conditional expression       |
+| play_charades          | Maya Mistry   ||
+| play_riddles           | Maya Mistry   ||
+| play_trivia            | Maya Mistry   ||
+| play_again             | Maya Mistry   ||
+| reset_game             | Maya Mistry   ||
+| run                    | Evan Schneider||
+| continue_to_next_question| Evan Schneider||
 | bonus_round | Evan Schneider | conditional expression, f string |
