@@ -1,6 +1,7 @@
 # Group: Ruthenium 
-# Maya Mistry, Evan Schneider, Hadiya Mohammed 
-# Final Project
+# Maya Mistry, Evan Schneider
+# INST326 (Spring 2024)
+# Final Project: Ruthenium's Quiz Game
 
 import json
 import random
