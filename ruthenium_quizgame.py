@@ -23,7 +23,7 @@ class QuizGame:
         Brings in the quiz game with data from a JSON file.
 
         Args:
-            file_name (str): The name of the JSON file containing quiz questions.
+            file_name (str): The name of the JSON file containing quiz questions. Maya
         """
         self.quiz_data = self.load_quiz_data(file_name) 
         self.cumulative_score = 0
@@ -39,13 +39,13 @@ class QuizGame:
             file_name (str): The name of the JSON file containing quiz questions.
 
         Returns:
-            dict: The data loaded from the JSON file.
+            dict: The data loaded from the JSON file. Maya
         """
         with open(file_name, 'r') as file:
             return json.load(file)
 
     def play_charades(self):
-        """Plays the charades game mode."""
+        """Plays the charades game mode.Maya"""
         self.current_game_mode = self.play_charades
         charades_questions = self.quiz_data['charades']
         question = random.choice(charades_questions)
@@ -71,7 +71,7 @@ class QuizGame:
         self.continue_to_next_question()
 
     def play_riddles(self):
-        """Plays the riddles game mode."""
+        """Plays the riddles game mode. Maya"""
         self.current_game_mode = self.play_riddles
         riddles = self.quiz_data['riddles']
         question = random.choice(riddles)
@@ -93,7 +93,7 @@ class QuizGame:
         self.continue_to_next_question()
 
     def play_trivia(self):
-        """Plays the trivia game mode."""
+        """Plays the trivia game mode. Maya"""
         self.current_game_mode = self.play_trivia
         trivia_questions = self.quiz_data['trivia']
         question = random.choice(trivia_questions)
@@ -117,7 +117,7 @@ class QuizGame:
     def play_again(self):
         """
         Prompts the player to play again or quit.
-        If the player chooses to continue, the game state is reset.
+        If the player chooses to continue, the game state is reset. Maya
         """
         choice = input("Thanks for playing! Would you like to play again? (yes/no): ").strip().lower()
         if choice == 'yes':
@@ -127,7 +127,7 @@ class QuizGame:
             print("Ok, see you next time!")
     
     def run(self):
-        """Starts the quiz game by allowing the user to choose a game mode."""
+        """Starts the quiz game by allowing the user to choose a game mode. Evan"""
         print("Welcome to Ruthenium's Quiz Game!")
         print("What game mode would you like to play?")
         print("1. Charades")
@@ -148,7 +148,7 @@ class QuizGame:
     def continue_to_next_question(self):
         """
         Continues to the next question or ends the game if the limit of 5 questions is reached.
-        Triggers the bonus round if user gets 4+ questions right.
+        Triggers the bonus round if user gets 4+ questions right. Evan
         """
         if self.questions_attempted < 5:
             input("\nPress enter to continue to the next question: ")
@@ -162,7 +162,7 @@ class QuizGame:
                 self.play_again()
 
     def bonus_round(self):
-        """Plays a bonus round if the player scores 4 or 5 out of 5."""
+        """Plays a bonus round if the player scores 4 or 5 out of 5. Evan"""
         try:
             bonus_round_data = self.quiz_data['bonus_round']
             category = random.choice(['charades', 'riddles', 'trivia'])
@@ -197,19 +197,8 @@ class QuizGame:
 
         self.play_again()
 
-    def play_again(self):
-        """
-        Prompts the player to play again or quit.
-        If the player chooses to continue, the game state is reset.
-        """
-        choice = input("Thanks for playing! Would you like to play again? (yes/no): ").strip().lower()
-        if choice == 'yes':
-            self.reset_game()
-            self.run()
-        else:
-            print("Ok, see you next time!")
     def reset_game(self):
-        """Resets the game state to start a new game session."""
+        """Resets the game state to start a new game session. Maya"""
         self.cumulative_score = 0
         self.correct_answers = 0
         self.current_game_mode = None
