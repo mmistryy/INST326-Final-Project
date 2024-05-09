@@ -1,118 +1,243 @@
 {
   "charades": [
-      {
-          "question": "What is an item that provides warmth and can have different textures?",
-          "clues": [
-              "Something that brings you warmth.",
-              "Something that comes in different textures.",
-              "Something you might have had a special one for when you were a baby."
-          ],
-          "answer": "Blanket"
-      },
-      {
-          "question": "Which animal is a symbol of freedom and a Disney movie was created based on it?",
-          "clues": [
-              "A symbol for freedom.",
-              "A Disney movie was created based on it.",
-              "Almost all live in Africa."
-          ],
-          "answer": "Lion"
-      },
-      {
-          "question": "What is a kind of media specific to Japan that both adults and children enjoy?",
-          "clues": [
-              "A kind of media specific to Japan.",
-              "A lot of people recently got interested in it.",
-              "Can be made for adults and children."
-          ],
-          "answer": "Anime"
-      },
-      {
-          "question": "Which planet was speculated to have water?",
-          "clues": [
-              "There are drones here sent from NASA.",
-              "Some speculate it could be Earth's replacement.",
-              "It's also known as the 'red planet'."
-          ],
-          "answer": "Mars"
-      },
-      {
-          "question": "Which social media platform has a user pool of mainly older adults?",
-          "clues": [
-              "User pool is mainly older adults",
-              "People stay connected through it.",
-              "It loves to violate your privacy."
-          ],
-          "answer": "Facebook"
-      }
+    {
+      "question": "What is an item that provides warmth and can have different textures?",
+      "clues": [
+        "Something that brings you warmth.",
+        "Something that comes in different textures.",
+        "Something you might have had a special one for when you were a baby."
+      ],
+      "answer": "Blanket"
+    },
+    {
+      "question": "Which animal is a symbol of freedom and a Disney movie was created based on it?",
+      "clues": [
+        "A symbol for freedom.",
+        "A Disney movie was created based on it.",
+        "Almost all live in Africa."
+      ],
+      "answer": "Lion"
+    },
+    {
+      "question": "What is a kind of media specific to Japan that both adults and children enjoy?",
+      "clues": [
+        "A kind of media specific to Japan.",
+        "A lot of people recently got interested in it.",
+        "Can be made for adults and children."
+      ],
+      "answer": "Anime"
+    },
+    {
+      "question": "Which planet was speculated to have water?",
+      "clues": [
+        "There are drones here sent from NASA.",
+        "Some speculate it could be Earth's replacement.",
+        "It's also known as the 'red planet'."
+      ],
+      "answer": "Mars"
+    },
+    {
+      "question": "Which social media platform has a user pool of mainly older adults?",
+      "clues": [
+        "User pool is mainly older adults",
+        "People stay connected through it.",
+        "It loves to violate your privacy."
+      ],
+      "answer": "Facebook"
+    },
+    {
+      "question": "What is a common object found in a kitchen used for cutting vegetables?",
+      "clues": ["A sharp tool used for slicing and chopping.", "Often made of metal or ceramic.", "Found in various sizes and shapes."],
+      "answer": "Knife"
+    },
+    {
+      "question": "Which animal is known for its long neck and is native to Africa?",
+      "clues": ["An herbivorous animal with distinctive long legs.", "Often depicted in children's books with spots.", "Has a famously long neck for reaching leaves."],
+      "answer": "Giraffe"
+    },
+    {
+      "question": "What is a popular mode of transportation in Venice, Italy, often seen floating on canals?",
+      "clues": ["A small watercraft propelled by a pole.", "Commonly used for sightseeing and transportation.", "Associated with the water-filled streets of Venice."],
+      "answer": "Gondola"
+    },
+    {
+      "question": "Name a musical instrument that is often associated with Scotland and played at events like Highland Games.",
+      "clues": ["A traditional Scottish musical instrument.", "Played by blowing air through a reed or mouthpiece.", "Often heard at ceremonies and events in Scotland."],
+      "answer": "Bagpipes"
+    },
+    {
+      "question": "What is a common outdoor activity in winter where people slide down hills on a flat board?",
+      "clues": ["A recreational activity popular in snowy regions.", "Involves sliding down a slope on a flat board.", "Participants often wear winter gear like jackets and gloves."],
+      "answer": "Snowboarding"
+    }
   ],
   "riddles": [
-      {
-          "question": "You can touch me, but I can’t touch you back. You can see me, but I only reflect you and can never reject you. What am I?",
-          "answer": "Mirror"
-      },
-      {
-          "question": "The more you take, the more you leave behind. What am I?",
-          "answer": "Footsteps"
-      },
-      {
-          "question": "What has keys but can't open locks?",
-          "answer": "Piano"
-      },
-      {
-          "question": "What is always in front of you but can't be seen?",
-          "answer": "Future"
-      },
-      {
-          "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
-          "answer": "M"
-      }
+    {
+      "question": "You can touch me, but I can’t touch you back. You can see me, but I only reflect you and can never reject you. What am I?",
+      "answer": "Mirror"
+    },
+    {
+      "question": "The more you take, the more you leave behind. What am I?",
+      "answer": "Footsteps"
+    },
+    {
+      "question": "What has keys but can't open locks?",
+      "answer": "Piano"
+    },
+    {
+      "question": "What is always in front of you but can't be seen?",
+      "answer": "Future"
+    },
+    {
+      "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "answer": "M"
+    },
+    {
+      "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+      "answer": "Echo"
+    },
+    {
+      "question": "What has a neck but no head?",
+      "answer": "Bottle"
+    },
+    {
+      "question": "What has one eye but can't see?",
+      "answer": "Needle"
+    }
   ],
   "trivia": [
-      {
-          "question": "What is the capital of Greece?",
-          "answer": "Athens"
-      },
-      {
-          "question": "How many senses do humans have?",
-          "answer": "5"
-      },
-      {
-          "question": "How many ounces are in a cup?",
-          "answer": "8"
-      },
-      {
-          "question": "What is the largest country in the world?",
-          "answer": "Russia"
-      },
-      {
-          "question": "How many bones are in the human body?",
-          "answer": "206"
-      }
+    {
+      "question": "What is the capital of Greece?",
+      "answer": "Athens"
+    },
+    {
+      "question": "How many senses do humans have?",
+      "answer": "5"
+    },
+    {
+      "question": "How many ounces are in a cup?",
+      "answer": "8"
+    },
+    {
+      "question": "What is the largest country in the world?",
+      "answer": "Russia"
+    },
+    {
+      "question": "How many bones are in the human body?",
+      "answer": "206"
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "answer": "Mount Everest"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "answer": "H2O"
+    },
+    {
+      "question": "How many players are there on a soccer team?",
+      "answer": "11"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "answer": "Yen"
+    }
   ],
   "bonus_round": {
-      "charades": [
-          {
-              "question": "Guess the Pixar movie that is set in a post-apocalyptic world and has a main character whose name starts with 'W'.",
-              "clues": [
-                  "It's a Pixar movie set in a post-apocalyptic world.",
-                  "The main character's name starts with the letter 'W'.",
-                  "The movie title is also the main character's name."
-              ],
-              "answer": "WALL-E"
-          }
-      ],
-      "riddles": [
-          {
-              "question": "The person who makes it, sells it. The person who buys it, never uses it. The person who uses it, never knows they're using it. What is it?",
-              "answer": "Coffin"
-          }
-      ],
-      "trivia": [
-          {
-              "question": "Which planet is known as the 'Blue Planet'?",
-              "answer": "Earth"
-          }
-      ]
+    "charades": [
+      {
+        "question": "Guess the Pixar movie that is set in a post-apocalyptic world",
+        "clues": [
+          "It's a Pixar movie set in a post-apocalyptic world.",
+          "The main character's name starts with the letter 'W'.",
+          "The movie title is also the main character's name."
+        ],
+        "answer": "WALL-E"
+      },
+      {
+        "question": "Which animated movie features a young Chinese girl who disguises herself as a man to take her father's place in the army?",
+        "clues": [
+          "The movie is set in ancient China.",
+          "The protagonist's name is Mulan.",
+          "It was released by Disney in 1998."
+        ],
+        "answer": "Mulan"
+      },
+      {
+        "question": "In which animated film does a clownfish embark on a journey to find his son?",
+        "clues": [
+          "The film is set in the ocean.",
+          "The protagonist's name is Marlin.",
+          "It was released by Pixar in 2003."
+        ],
+        "answer": "Finding Nemo"
+      },
+      {
+        "question": "Which animated movie features a young lion prince who returns to reclaim his kingdom from his evil uncle?",
+        "clues": [
+          "The movie is set in Africa.",
+          "The protagonist's name is Simba.",
+          "It was released by Disney in 1994."
+        ],
+        "answer": "The Lion King"
+      },
+      {
+        "question": "Which animated movie follows the adventures of a young boy named Miguel who dreams of becoming a musician?",
+        "clues": [
+          "The movie is set during the Mexican holiday Dia de los Muertos.",
+          "The protagonist's name is Miguel.",
+          "It was released by Pixar in 2017."
+        ],
+        "answer": "Coco"
+      }
+    ],
+    "riddles": [
+      {
+        "question": "The person who makes it, sells it. The person who buys it, never uses it. The person who uses it, never knows they're using it. What is it?",
+        "answer": "Coffin"
+      },
+      {
+        "question": "What has keys but can't open locks?",
+        "answer": "Piano"
+      },
+      {
+        "question": "What has a neck but no head?",
+        "answer": "Bottle"
+      },
+      {
+        "question": "What has one eye but can't see?",
+        "answer": "Needle"
+      },
+      {
+        "question": "The more you take, the more you leave behind. What am I?",
+        "answer": "Footsteps"
+      }
+    ],
+    "trivia": [
+      {
+        "question": "Which planet is known as the 'Blue Planet'?",
+        "answer": "Earth"
+      },
+      {
+        "question": "Who discovered penicillin?",
+        "answer": "Alexander Fleming"
+      },
+      {
+        "question": "What is the chemical symbol for gold?",
+        "answer": "Au"
+      },
+      {
+        "question": "Which country is commonly referred to as the Land of the Rising Sun?",
+        "answer": "Japan"
+      },
+      {
+        "question": "Who is known as the 'Father of Computers'?",
+        "answer": "Charles Babbage"
+      }
+    ]
   }
 }
