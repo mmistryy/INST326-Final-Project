@@ -1,6 +1,6 @@
 # Ruthenium's Quiz Game
 
-Welcome to Ruthenium's Quiz Game! This is a simple Python-based quiz game where players can choose between different game modes: Charades, Riddles, and Trivia.
+Welcome to Ruthenium's Quiz Game! This is a simple Python quiz game where players can choose between different game modes: Charades, Riddles, and Trivia.
 
 ## Description
 
@@ -16,6 +16,7 @@ python ruthenium_quizgame.py ruthenium_quiz_questions.json
 
 We hope you enjoy our game!
 
+## Methods/Contributors
 Here's a list of our functions and contributors:
 | Method/Function        | Primary Author | Techniques Demonstrated      |
 |------------------------|----------------|------------------------------|
