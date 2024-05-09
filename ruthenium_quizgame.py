@@ -1,3 +1,7 @@
+# Group: Ruthenium 
+# Maya Mistry, Evan Schneider, Hadiya Mohammed 
+# Final Project
+
 import json
 import random
 
