@@ -114,12 +114,6 @@ class QuizGame:
         self.questions_attempted += 1
         self.continue_to_next_question()
 
-    # run(self)
-
-    # continue_to_next_question(self)
-
-    # bonus round
-
     def play_again(self):
         """
         Prompts the player to play again or quit.
