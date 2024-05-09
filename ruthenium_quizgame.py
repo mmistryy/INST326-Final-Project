@@ -131,7 +131,89 @@ class QuizGame:
             self.run()
         else:
             print("Ok, see you next time!")
+    
+    def run(self):
+        """Starts the quiz game by allowing the user to choose a game mode."""
+        print("Welcome to Ruthenium's Quiz Game!")
+        print("What game mode would you like to play?")
+        print("1. Charades")
+        print("2. Riddles")
+        print("3. Trivia")
+        
+        choice = input("\nEnter your choice: ").strip()
 
+        if choice == '1':
+            self.play_charades()
+        elif choice == '2':
+            self.play_riddles()
+        elif choice == '3':
+            self.play_trivia()
+        else:
+            print("Invalid choice. Please try again.")
+
+    def continue_to_next_question(self):
+        """
+        Continues to the next question or ends the game if the limit of 5 questions is reached.
+        Triggers the bonus round if user gets 4+ questions right.
+        """
+        if self.questions_attempted < 5:
+            input("\nPress enter to continue to the next question: ")
+            self.current_game_mode()
+        else:
+            print(f"\nThis is your score: {self.cumulative_score}/5.")
+            if self.cumulative_score >= 4:
+                self.bonus_round()
+            else:
+                print("Better luck next time!")
+                self.play_again()
+
+    def bonus_round(self):
+        """Plays a bonus round if the player scores 4 or 5 out of 5."""
+        try:
+            bonus_round_data = self.quiz_data['bonus_round']
+            category = random.choice(['charades', 'riddles', 'trivia'])
+            bonus_questions = bonus_round_data[category]
+            if not bonus_questions:
+                raise ValueError("No bonus questions found in the selected category.")
+
+            question = random.choice(bonus_questions)
+
+            print("\n*** Bonus Round ***")
+            print("You've earned a bonus question! Answer this:")
+            print("Question:", question['question'])
+
+            if 'clues' in question:
+                print("\nClues:")
+                for i, clue in enumerate(question['clues'], 1):
+                    print(f"{i}. {clue}")
+
+            guess = input("\nYour answer: ").strip().capitalize()
+
+            if guess == question['answer']:
+                print("Excellent, you got the bonus question right!")
+                self.cumulative_score += 1
+            else:
+                print("Not quite right... the correct answer was:", question['answer'])
+
+            print(f"Final score: {self.cumulative_score}/5.")
+        except KeyError:
+            print("Error: Bonus round data is missing or improperly formatted.")
+        except ValueError as e:
+            print(e)
+
+        self.play_again()
+
+    def play_again(self):
+        """
+        Prompts the player to play again or quit.
+        If the player chooses to continue, the game state is reset.
+        """
+        choice = input("Thanks for playing! Would you like to play again? (yes/no): ").strip().lower()
+        if choice == 'yes':
+            self.reset_game()
+            self.run()
+        else:
+            print("Ok, see you next time!")
     def reset_game(self):
         """Resets the game state to start a new game session."""
         self.cumulative_score = 0
